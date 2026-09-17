@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/contato.css">
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <h1>TecKids</h1>
+            <img src="/imagens/Design sem nome.png">
+          
+        </div>
+
+        <div class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="/sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="/contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mobile-menu-icon">
+           <button onclick="menuShow()">
+            <img class="icon" src="imagens/menu_white_36dp (1).svg">
+        </button>
+        </div> 
+
+        <div class="mobile-menu">
+            <ul>
+                 <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                 <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                 <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+
+    </header>
+    
+     
+      
+     
+     
+     
+     <div id="content">
+      <div id="form">
+        <h2>Entre em contato</h2>
+        <br>
+        <form action="https://formsubmit.co/anajulialindholm2@gmail.com" method="POST">
+
+          <label for="Nome">Nome:</label> 
+          <br>
+          <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome:">
+          <br>
+
+          <label for="email">Email:</label> 
+          <br>
+          <input type="text" name="Email" id="Email" placeholder="Digite seu email:">
+          <br>
+
+          <label for="mensagem">Mensagem:</label> 
+          <br>
+          <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem:"></textarea>
+        
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+     </div>
+  
+    <div class="footer">
+            ©Ana Julia Lindholm
+        </div>
+
+        <script src="/script.js"></script>
+     
+    </div>
+</body>
+</html>

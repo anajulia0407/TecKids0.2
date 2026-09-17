@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f6f5e9;
+}
+
+
+header {
+    background-color: #564c92;
+    box-shadow: 0px 3px 10px #464646;
+    height: 120px;
+}
+
+@media screen and (max-width:  730px) {
+    header {
+        height: 100px;
+    }
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+#logo {
+  display: center;
+  padding: 10px;
+  
+}
+
+#logo h1 {
+    margin-top:19px;
+    color:#fff;
+    margin-left: 85px;
+}
+
+@media screen and (max-width:  730px) {
+    #logo h1 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 80px;
+    }
+}
+
+ 
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+     
+}
+
+
+
+.nav-item {
+    margin: 0 15px;
+}
+ 
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #110e0e;
+    transition: 0.5s;
+}
+.footer {
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}
+
+@media screen and (max-width:  730px) {
+    .footer {
+        font-size: 17px;
+    }
+}
+
+#logo img {
+    position: fixed;
+    display: flex;
+    padding: 10px;
+    top: 0;
+    margin-top:15px;
+}  
+
+@media screen and (max-width:  730px) {
+    #logo img {
+        width: 65px;
+    }
+}
+
+.mobile-menu  {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 25px;
+}
+
+.mobile-menu-icon {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 25px;
+    padding: 9px;
+   
+   
+   
+    
+    
+}
+
+.mobile-menu {
+    display:none;
+}
+
+
+@media screen and (max-width:  730px) {
+    .nav-bar {
+    padding: 10px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+     display: flex;
+     margin-top: 100px;
+     margin-right: 20px;
+  
+     padding: 15px;
+    background-color: #564c92;
+     border-radius: 10px;
+    }
+
+    .mobile-menu a {
+        color: #faf5f5;
+        
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+
+    .mobile-menu.open {
+        display: block;
+    }
+}
+
+
+#content {
+    margin-top: 10px;
+}
+
+#form{
+    text-align: center;
+    font-size: 20px;
+    
+}
+/* Estiliza os campos do formulário */
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #222220 ;
+  background-color: #f8e2e0;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+/* Estiliza os campos do formulário */
+textarea{
+  width: 49%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #222220 ;
+  background-color: #f8e2e0;
+  border-radius: 4px;
+  margin-left: 2%;
+}
+/* Estiliza os campos do formulário */
+label{
+    margin-right: 2%;
+}
+/* Estiliza os campos do formulário */
+button{
+  width: 15%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #222220 ;
+  background-color: #f8e2e0;
+  border-radius: 4px;
+  margin-right: 34%;
+  box-sizing: border-box; 
+  cursor: pointer;
+}
+
+/* Estiliza a area onde vai o conteúdo*/
+#content{
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ec99a2;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    margin-top: 10%;
+}
+
+
+
+ 
